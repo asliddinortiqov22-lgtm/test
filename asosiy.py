@@ -153,14 +153,5 @@
 
 c = 0
 k = 0
-
-with open("sonlar.txt", "r") as exe:
    
-
-    for x in exe:
-        if int(x) > k:
-            k = int(x)
-        elif x < c:
-            c = int(x)
-    print(k,c)    
 
